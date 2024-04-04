@@ -58,7 +58,7 @@ public class BaseFile {
 	
 	@AfterMethod(alwaysRun=true)
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 
 }
