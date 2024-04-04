@@ -41,6 +41,8 @@ public class standaloneTest extends BaseFile {
 		Assert.assertTrue(confirmationMsg.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 
 		System.out.println("validation would be executed properly");
+		
+		System.out.println("after git updates");
 
 	}
 
